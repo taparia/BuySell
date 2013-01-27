@@ -1,0 +1,8 @@
+Vertical accordian menu - http://www.menucool.com/vertical/accordion-menu
+			  http://bloomwebdesign.net/myblog/2012/05/create-a-vertical-accordion-menu-using-css3-tutorial/
+			  http://www.designchemical.com/lab/jquery-vertical-accordion-menu-plugin/examples/#
+			  http://www.designchemical.com/lab/jquery/demo/jquery_simple_accordion_menu.htm#
+
+Dropdown - http://www.9lessons.info/2012/06/simple-drop-down-menu-with-jquery-and.html
+
+Ajax - http://net.tutsplus.com/tutorials/javascript-ajax/5-ways-to-make-ajax-calls-with-jquery/

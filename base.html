@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>BuySell</title>
+	
+	<link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+	<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body link="#ffffff">
+	<header id="header">
+		<div id="logo">
+			<span id="s1">BUY<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SELL</span>
+			<img id="logoimg" src="images/logo.png"/>
+		</div>
+		
+		<div>
+		<span id="s4">
+				<form method="get" action="/search" id="search">
+					<input name="q" type="text" size="35" placeholder="SEARCH" />
+				</form>
+			</span>
+			<span id="s2"><a class="link" href="http://192.168.121.7">CHANNEL I</a></span>
+			<span id="s3"><a class="link" href="http://www.iitr.ac.in">IITR</a></span>
+			<div id="s5" class="dropdown">
+				<a class="account" >priyanshu<img id="person" src="images/sb.jpg"/></a>
+				<div class="submenu">
+				<ul class="root">
+				<li ><a id="account" href="#" >My Account</a></li>
+				<li ><a href="#logout" >Logout</a></li>
+				</ul>
+				</div>
+				</div>
+				</div>
+			
+	</header>
+	<div id="container">
+<!--		<div id="wrapper">
+			<ul class="ac-menu">
+			<li id="one">
+			<a href="index.html">BUY</a>
+				<ul class="sub-menu">
+				 <li><a href="#"><img class="ar" src="images/ar.png"/>ELECTRONICS</a></li>
+				 <li><a href="#"><img class="ar" src="images/ar.png"/>BOOKS</a></li>
+				 <li><a href="#"><img class="ar" src="images/ar.png"/>MISCELLANEOUS</a></li>
+				</ul>
+			</li>
+			</li>
+			<li id="two">
+			<a href="sell.html">SELL</a>
+			</li>
+			<li id="three">
+			<a id="request" href="demand.html">REQUEST</a>
+			</li>
+						<li id="four">
+			<a data-toggle="modal" href="#disclaimer_">DISCLAIMER</a>
+			</li>
+			</ul>
+		</div><!--end accordian-->
+		
+<div id="wrapper">
+<ul class="ac-menu">
+			<li id="one">
+				<a id="buy" href="#one">BUY</a>
+				<ul class="sub-menu">
+					<li><a href="#one"><img class="ar" src="images/ar.png"/>ELECTRONICS</a></li>
+					<li><a href="#one"><img class="ar" src="images/ar.png"/>BOOKS</a></li>
+					<li><a href="#one"><img class="ar" src="images/ar.png"/>MISCELLANEOUS</a></li>
+				</ul>
+			</li>
+			<li id="two">
+				<a id="sell" href="#two">SELL</a>
+			</li>
+			<li id="three">
+				<a id="request" href="#three">REQUEST</a>
+			</li>
+            <li id="four">
+				<a data-toggle="modal" id="disclaim" href="#disclaimer_">DISCLAIMER</a>
+			</li>
+		</ul>
+	</div>
+		<div id="content">
+<!--			<div class="item">
+				<div class="box"><img class="itemimage"src="images/ipod.png"/></div>
+					<span class="iname">Ipod</span>
+					<span class="icost">Rs 3000</span>
+			</div>-->
+	<!--		<p><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-large">-->
+			<div data-toggle="modal" href="#myModal" class="item">
+				<div class="box"><img class="itemimage"src="images/ipod.png"/></div>
+					<span class="iname">Ipod</span>
+					<span class="icost">Rs 3000</span>
+			</div><!--</a></p>-->
+				<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-header">
+<!--				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>-->
+				<h3 id="myModalLabel">Ipod</h3>
+				</div>
+				<div class="modal-body">
+				<img id="mimg"src="images/ipod.png"/>
+				<span class="mprice">Price : Rs 3000</span>
+				<span class="mstatus">Status : Excellent</span>
+				<span class="mdesc"><b>Description :</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada nunc eget diam ultrices auctor. Aliquam erat volutpat. Aliquam vel arcu nisi, sed dictum dolor. </span>
+				<span class="mowner">Owner : Priyanshu Taparia</span>
+				<span class="mcontact">Contact : +91-9012505004</span>
+				<span class="memail">Email Id : priyanshutaparia@gmail.com</span>
+				<span class="mentry">Date of Entry : 1/1/2013</span>
+				<span class="mexpiry">Date of Expiry : 1/1/2014</span>
+				<form class="mmail"method="" action="">
+					<span class="msend">Send Mail to the owner</span>
+					<span class="msubject">Subject : BUYSELL>>Ipod Query</span>
+					<textarea class="i1 ta7 mtextarea"cols="53" rows="5" placeholder="Body"></textarea>
+				</form>
+				</div>
+				<div class="modal-footer">
+<!--				<button class="btn btn-primary">Send</button>
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>-->
+				<div class="mfooter">
+				<input class="msubmit" type="submit" value="Send">
+				<button class="mclose" data-dismiss="modal" aria-hidden="true">Close</button>
+				</div>
+				</div>
+				</div>
+			<div class="item">
+				<div class="box"><img class="itemimage"src="images/ipod.png"/></div>
+					<span class="iname">Ipod</span>
+					<span class="icost">Rs 3000</span>
+			</div>
+			<div class="item">
+				<div class="box"><img class="itemimage"src="images/ipod.png"/></div>
+					<span class="iname">Ipod</span>
+					<span class="icost">Rs 3000</span>
+			</div>
+			<div class="item">
+				<div class="box"><img class="itemimage"src="images/ipod.png"/></div>
+					<span class="iname">Ipod</span>
+					<span class="icost">Rs 3000</span>
+			</div>
+		</div>
+	<div id="disclaimer">
+			<div id="disclaimer_" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-header">
+			<h3 id="myModalLabel">Disclaimer</h3>
+			</div>
+			<div class="modal-body">
+			All the contents of an item displayed on this site are as recieved from the owner. The Information Management Group is not to be held responsible for the content part of this site. However, if you have a particular complaint about something you've found on this web site, please mail us at <h4>img@iitr.ernet.in</h4>
+			</div>
+			<div class="modal-footer">
+			<button class="mclose" data-dismiss="modal" aria-hidden="true">Close</button>
+		</div>
+		</div>
+		</div>
+		<div id="footer">
+		<span>Copyright 2013 | Information Management Group. All rights reserved.</span>
+		</div>
+		</div>	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="bootstrap/twitter-bootstrap/js/bootstrap-modal.js"></script>
+<script type="text/javascript" >
+$(document).ready(function()
+{
+
+$(".account").click(function()
+{
+var X=$(this).attr('id');
+if(X==1)
+{
+$(".submenu").hide();
+$(this).attr('id', '0'); 
+}
+else
+{
+$(".submenu").show();
+$(this).attr('id', '1');
+}
+
+});
+
+//Mouse click on sub menu
+$(".submenu").mouseup(function()
+{
+return false
+});
+
+//Mouse click on my account link
+$(".account").mouseup(function()
+{
+return false
+});
+
+
+//Document Click
+$(document).mouseup(function()
+{
+$(".submenu").hide();
+$(".account").attr('id', '');
+});
+});
+$('#link').click(function(e){
+    e.preventDefault();
+});
+</script>
+<script type="text/javascript">
+	$.ajaxSetup ({
+		cache: false
+	});
+	
+//	load() functions
+	var loadUrl1 = "index.html";
+	$("#buy").click(function(){
+		$("#content").load(loadUrl1);
+	});
+	var loadUrl2= "sell.html";
+	$("#sell").click(function(){
+		$("#content").load(loadUrl2);
+	});
+	var loadUrl3 = "demand.html";
+	$("#request").click(function(){
+		$("#content").load(loadUrl3);
+	});
+	var loadUrl4 = "account.html";
+	$("#account").click(function(){
+		$("#content").load(loadUrl4);
+	});
+	</script>
+</body>
+</html>
